@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.HelloWorld {
+    /* background-color: rgba(165, 42, 42, 0.258); */
+    /* height: 100vh; */
+}
+
+.World {
+    width: 350px;
+    height: 60px;
+    border: 1px solid grey;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+    box-shadow: 1px 1px 1px red;
+    margin-top: 20px;
+}

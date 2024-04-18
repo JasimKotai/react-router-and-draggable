@@ -1,0 +1,9 @@
+.draggable{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 8px 5px 16px 1px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); */
+    margin-top: 10px;
+    margin-left: 10px;
+}
