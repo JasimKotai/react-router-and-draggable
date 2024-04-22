@@ -21,3 +21,10 @@
     box-shadow: 1px 1px 1px red;
     margin-top: 20px;
 }
+.Temp{
+    /* background-color: skyblue; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

@@ -3,7 +3,7 @@ import { CSS } from "@dnd-kit/utilities";
 import React from "react";
 
 function HelloWorld({ playlist }) {
-    console.log(playlist.name);
+    // console.log(playlist.name);
   const { transform, transition, setNodeRef, attributes, listeners } =
     useSortable({ id: playlist.id });
   const style = {
