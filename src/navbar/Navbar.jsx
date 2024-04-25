@@ -8,12 +8,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 const NavbarPage = () => {
   const [show, setShow] = useState(false);
 
+  console.log('==>',1 + + '2' + + '2');
+
   return (
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand>
-            <Link to={"/"}>React-Bootstrap</Link>
+            <Link to={"/"}>React-Router</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
